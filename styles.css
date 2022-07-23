@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header Styles*/
+header {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 25%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+header ul li a:hover {
+    color: #9a0704;
+    border-bottom: 0.1rem solid #9a0704;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 34px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/*Footer Styles*/
+footer {
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+i {
+    font-size: 4rem;
+    padding: 10px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer ul li i:hover {
+    color: #9a0704;
+}
+
+footer p {
+    color: black;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+/*Home: Main Styles*/
+.main-item {
+    background-image: url('ZT Foundation/Walk/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-item::before {
+    content: "BEFORE";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #9a0704;
+    font-size: 3rem;
+    z-index: 1;
+    text-align: center;
+}
+
+/*About Page Styles*/
+.about-me, .more-abt-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.me-image, .more-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.me-image img {
+    padding: 10px;
+    border-radius: 5rem;
+    width: 75%;
+}
+
+.more-image img {
+    padding: 10px;
+    border-radius: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+}
+
+.more-about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    text-align: justify;
+}
+
+.about-text p, .more-about-text p {
+    font-size: 2.25rem;
+    line-height: 2;
+}
+
+.about-text h1, .more-about-text h1 {
+    color: #9a0704;
+    font-size: 3rem;
+}
+
+.about-text h2 {
+    color: #9a0704;
+    font-size: 2rem;
+}
