@@ -6,14 +6,14 @@
 /*Header Styles*/
 header {
     width: 100%;
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .logo {
-    width: 25%;
+    width: 30%;
 }
 
 .logo img {
@@ -41,7 +41,7 @@ nav ul li a {
     text-transform: uppercase;
     padding: 10px;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 header ul li a:hover {
@@ -75,7 +75,7 @@ footer {
 }
 
 i {
-    font-size: 4rem;
+    font-size: 2.5rem;
     padding: 10px;
 }
 
@@ -103,7 +103,7 @@ footer ul li i:hover {
 footer p {
     color: black;
     padding: 10px;
-    font-size: 2rem;
+    font-size: 1.25rem;
 }
 
 /*Home: Main Styles*/
@@ -112,7 +112,7 @@ footer p {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    padding-top: 300px;
+    padding-top: 200px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -138,7 +138,7 @@ footer p {
     border-radius: 0.5rem;
     color: white;
     background-color: #9a0704;
-    font-size: 3rem;
+    font-size: 1.5rem;
     z-index: 1;
     text-align: center;
 }
@@ -149,26 +149,21 @@ footer p {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+    padding: 40px;
     flex-wrap: wrap;
 }
 
-.me-image, .more-image {
+.me-image {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
 }
 
 .me-image img {
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 5rem;
-    width: 75%;
-}
-
-.more-image img {
-    padding: 10px;
-    border-radius: 5rem;
-    width: 100%;
-    height: 100%;
+    width: 60%;
 }
 
 .about-text {
@@ -185,21 +180,22 @@ footer p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
     text-align: justify;
 }
 
 .about-text p, .more-about-text p {
-    font-size: 2.25rem;
+    font-size: 1.25rem;
     line-height: 2;
 }
 
 .about-text h1, .more-about-text h1 {
+    text-align: center;
     color: #9a0704;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .about-text h2 {
+    text-align: center;
     color: #9a0704;
-    font-size: 2rem;
 }
