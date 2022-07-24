@@ -384,6 +384,15 @@ footer p {
     line-height: 2;
 }
 
+.venmo-text a, .paypal-text a{
+    text-decoration: none;
+    color: #9a0704;
+}
+
+.venmo-text a:hover, .paypal-text a:hover{
+    border-bottom: 0.1rem solid #9a0704;
+}
+
 .paypal-text a img {
     width: 50%;
 }
