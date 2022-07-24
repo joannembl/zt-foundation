@@ -45,6 +45,11 @@
         text-align: center;
     }
 
+    .donation-paypal .donate-btn img {
+        width: 50%;
+        padding-left: 25%;
+    }
+
     .community-about .community-text {
         padding: 40px;
     }
@@ -479,6 +484,11 @@ footer p {
 .venmo-text a, .paypal-text a{
     text-decoration: none;
     color: #9a0704;
+}
+
+.donate-btn img {
+    width: 30%;
+    padding-left: 35%;
 }
 
 .venmo-text a:hover, .paypal-text a:hover{
