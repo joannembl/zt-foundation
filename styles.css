@@ -131,7 +131,7 @@ footer p {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .text {
@@ -141,7 +141,8 @@ footer p {
     flex-direction: column;
     border-radius: 0.5rem;
     color: white;
-    background-color: #9a0704;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* background-color: #9a0704; */
     font-size: 1.5rem;
     z-index: 1;
     text-align: center;
@@ -307,4 +308,77 @@ footer p {
 
 .brochure-info:hover {
     border-bottom: 0.1rem solid #9a0704;
+}
+
+/*Donation Page Styles*/
+.donations-header {
+    display: flex;
+    justify-content: center;
+    color: #9a0704;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+
+.donations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding: 40px;
+    /* flex-wrap: wrap; */
+}
+
+.donation-venmo, .donation-paypal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.venmo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.paypal-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63%;
+}
+
+.venmo-image img, .paypal-image img {
+    padding: 10px;
+    width: 100%;
+}
+
+.venmo-text, .paypal-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    padding: 40px;
+    text-align: justify;
+}
+
+/* .paypal-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 40px;
+    text-align: justify;
+} */
+
+.venmo-text p, .paypal-text p {
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+.paypal-text a img {
+    width: 50%;
 }
