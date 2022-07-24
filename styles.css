@@ -298,7 +298,6 @@ footer p {
 
 .event-text i:hover {
     border-bottom: 0.1rem solid #9a0704;
-    color: #9a0704;
 }
 
 .brochure-info {
@@ -323,9 +322,15 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-direction: column; */
     padding-top: 50px;
     padding: 40px;
     /* flex-wrap: wrap; */
+}
+
+.donations h2 {
+    color: #9a0704;
+    font-size: 1.75rem;
 }
 
 .donation-venmo, .donation-paypal {
@@ -381,4 +386,79 @@ footer p {
 
 .paypal-text a img {
     width: 50%;
+}
+
+.donation-check {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.donation-check h2 {
+    color: #9a0704;
+    font-size: 1.75rem;
+}
+
+.donation-check p {
+    font-size: 1.25rem;
+}
+
+/*Donation Page: Fundraising Styles*/
+.fundraising-header {
+    display: flex;
+    justify-content: center;
+    color: #9a0704;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+
+.fundraising {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.fundraising-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.fundraising-image img {
+    padding: 10px;
+    width: 90%;
+}
+
+.fundraising-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+}
+
+.fundraising-text p {
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+.fundraising-text h1 {
+    text-align: center;
+}
+
+.fundraising-text h1 a {
+    text-decoration: none;
+    color: #9a0704;
+    font-size: 2rem;
+}
+
+.fundraising-text h1 a:hover {
+    border-bottom: 0.1rem solid #9a0704;
 }
